@@ -16,7 +16,7 @@ def subbrute(domain):
 def subbrute_list():
     bir = open("subbruteilk.txt","r+")
     subbrute_list = []
-    for i in dosya:
+    for i in a:
         a = i.split(",")
         subbrute_list.append(a)
     bir.close()
